@@ -31,7 +31,7 @@ namespace WebApplication_forLearning.Controllers
         private readonly IHttpClientFactory _httpClientFactory;
         private readonly IConfigurationManager _configurationManager;
 
-        public IdentityRequestController(IHttpClientFactory httpClientFactory, IConfigurationManager configuration, UserManager, ILogger<IdentityRequestController> logger)
+        public IdentityRequestController(IHttpClientFactory httpClientFactory, IConfigurationManager configuration, ILogger<IdentityRequestController> logger)
         {
             _logger = logger;
             _httpClientFactory = httpClientFactory;
