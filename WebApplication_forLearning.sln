@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication_forLearning", "WebApplication_forLearning.csproj", "{7EE0AF61-8E6F-40E0-A447-C7BBD5580F66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication_forLearning", "WebApplication_forLearning.csproj", "{7EE0AF61-8E6F-40E0-A447-C7BBD5580F66}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTBOAuthLoginService", "DTBOAuthLoginService\DTBOAuthLoginService.csproj", "{3FFE1C50-84A7-4B09-8F4D-4B5A1A044D3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseApiServices", "..\DatabaseApiServices\DatabaseApiServices.csproj", "{71C48AC8-B5D0-4B55-A11B-ECB8800E4CD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{7EE0AF61-8E6F-40E0-A447-C7BBD5580F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EE0AF61-8E6F-40E0-A447-C7BBD5580F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EE0AF61-8E6F-40E0-A447-C7BBD5580F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FFE1C50-84A7-4B09-8F4D-4B5A1A044D3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFE1C50-84A7-4B09-8F4D-4B5A1A044D3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFE1C50-84A7-4B09-8F4D-4B5A1A044D3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFE1C50-84A7-4B09-8F4D-4B5A1A044D3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71C48AC8-B5D0-4B55-A11B-ECB8800E4CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C48AC8-B5D0-4B55-A11B-ECB8800E4CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71C48AC8-B5D0-4B55-A11B-ECB8800E4CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71C48AC8-B5D0-4B55-A11B-ECB8800E4CD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

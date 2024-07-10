@@ -1,0 +1,6 @@
+@DTBOAuthLoginService_HostAddress = http://localhost:5015
+
+GET {{DTBOAuthLoginService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
